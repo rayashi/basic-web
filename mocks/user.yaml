@@ -1,0 +1,17 @@
+- request:
+    url: ^/user/authenticated/$
+    method: GET
+    headers:
+      Authorization: Token foobar.*
+
+  response:
+    status: 200
+    latency: 1500
+    body: >
+      {
+        "id": 1,
+        "name": "Jose da Sila Sauro",
+        "phone": "349999999999",
+        "email": "jose@email.com",
+        "created_at": "2015-12-29T00:08:59.964427Z"
+      }

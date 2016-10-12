@@ -1,0 +1,13 @@
+- request:
+    url: /login/
+    method: POST
+    post: >
+      {"username":"zup.*","password":".*"}
+
+  response:
+    status: 200
+    latency: 1500
+    body: >
+      {
+        "token" : "foobar123"
+      }

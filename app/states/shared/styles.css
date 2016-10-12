@@ -1,0 +1,16 @@
+.navbar{
+  border-radius: 0;
+}
+.avatar-header{
+  margin: 0 3px 0 0;
+  padding: 0;
+  width: 1em;
+  border-radius: 50%;
+
+}
+body{
+  background-color: #4f1f43;
+  background: -moz-linear-gradient(left, #4f1f43 0px, #37152f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  background: -webkit-linear-gradient(left, #4f1f43 0%, #37152f 100%) !important;
+  background: -ms-linear-gradient(left, #4f1f43 0px, #37152f 100%) !important;
+}

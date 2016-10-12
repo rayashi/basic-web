@@ -1,0 +1,7 @@
+{
+  "name": "app-config",
+  "constants": {
+    "apiHost": "http://localhost:3000/",
+    "enableAnalytics": false
+  }
+}

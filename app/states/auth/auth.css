@@ -1,0 +1,16 @@
+.login-header {
+  background-color: #663366;
+  padding: 1em;
+  color: white;
+}
+.login-block {
+  width: 40%;
+  margin: 10em auto;
+  background-color: #f3f3f3;
+  overflow: auto;
+}
+
+.login-form{
+  padding: 2em;
+}
+

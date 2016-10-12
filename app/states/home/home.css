@@ -1,0 +1,11 @@
+.todo-block {
+  width: 40%;
+  margin: 5em auto;
+  background-color: #f3f3f3;
+  overflow: auto;
+}
+
+.todo-form{
+  padding: 2em;
+}
+

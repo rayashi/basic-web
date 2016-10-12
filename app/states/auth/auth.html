@@ -1,0 +1,23 @@
+<ng-include src="'states/loading/loading.html'"></ng-include>
+
+<div class="container-fluid">
+  <div class="login-block">
+    <div class="login-header"> <strong>Login Form</strong> </div>
+
+    <form class="login-form" ng-submit="controller.login()" >
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-user"></i> </div>
+          <input type="email" class="form-control" placeholder="Email" ng-model="controller.user.username">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-lock"></i> </div>
+          <input type="password" class="form-control" placeholder="Senha" ng-model="controller.user.password">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button> &nbsp; Lost your password?
+    </form>
+  </div>
+</div>

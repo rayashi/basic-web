@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" ui-sref="home">
+        Basic Web
+      </a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+
+      <li ng-if="!controller.authService.session.user"><a ui-sref="auth"><strong>Entrar</strong> </a></li>
+        <li class="dropdown">
+
+        <a ng-if="controller.authService.session.user" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user"></i>
+        </span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#" ng-click="controller.authService.logout()">Sair</a></li>
+        </ul>
+    </ul>
+  </div>
+</nav>

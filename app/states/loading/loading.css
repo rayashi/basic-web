@@ -1,0 +1,15 @@
+.loading-pane{
+  position: absolute;
+  z-index: 1000;
+  background-color: rgba(198, 198, 198, 0.52);;
+  height: 100%;
+  width: 100%;
+}
+.loading-pane h3, .loading-pane .fa{
+  color: #2f3d59;
+}
+.loading-pane .fa{
+  margin-top: 20%;
+}
+
+

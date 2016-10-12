@@ -1,0 +1,9 @@
+/node_modules
+/dist
+/.tmp
+/temp
+/.sass-cache
+/bower_components
+/public/
+.idea/
+.awspublish-basic-web
